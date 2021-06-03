@@ -1,0 +1,234 @@
+@import url(//db.onlinewebfonts.com/c/31ed0189fe1ff1e740a652e0f75b77dc?family=Snell+Roundhand);
+
+@font-face {font-family: "Snell Roundhand"; src: url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.eot"); src: url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.woff") format("woff"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/31ed0189fe1ff1e740a652e0f75b77dc.svg#Snell Roundhand") format("svg"); }
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum","tnum";
+}
+
+h1 {
+   color: rgb(2, 99, 193);
+}
+
+.headBlueColor{
+    color: rgb(2, 99, 193);
+    font-weight: bold;
+}
+
+.headColor{
+    color: rgb(199, 36, 3);
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.mycol{
+ border:1px, solid, aqua;
+}
+
+.card-wrapper{
+    width: 300px;
+    height: 450px;
+    perspective: 1000px;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;   
+}   
+
+.card-wrapper:hover .content{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.face-front, .face-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: black;
+}
+
+.face-back{
+    transform: rotateY(180deg);
+}
+
+.shadowText {
+    border-radius: 15px 50px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #aaa
+  }
+
+.cardIcon{
+    position: relative;
+    color: #15aabf;
+    top: 1px;
+}
+
+.textIcon{
+    display: inline; 
+}
+ 
+.noSubLink{
+    text-decoration: none;
+}
+.noLinked{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.justified{
+    text-align: justify;
+}
+
+.indented{
+    text-indent: 2em;
+}
+
+.borderBot{
+    border-bottom: 1px solid;
+}
+
+.visit {
+    margin-left: -3px;
+}
+
+.mathText{
+    font-family: 'Allura', cursive;
+}
+
+.mathText2{
+    font-family: 'Tangerine', cursive; 
+}
+
+.mathText3{
+    font-family: 'Parisienne', cursive; 
+}
+
+.mathText4 {
+    font-family: 'Brush Script MT', cursive;
+  }
+
+.nobr {
+    white-space: nowrap;
+ }
+ .supsub {
+    display: inline-block;
+    margin: -9em 0;
+    vertical-align: -0.55em;
+    line-height: 1.35em;
+    font-size: 70%;
+    text-align: left;
+ }
+
+/* Or child selector (>) if you don't care about IE6 */
+span.fraction span.numerator { 
+  position:relative;
+  top:-0.5em;
+  left: 0.2em;
+
+}
+
+span.fraction span.denominator {
+  position:relative;
+  top:0.5em;
+  left:-1.6em; /* This will vary with font... */
+}
+
+.flowArrow{
+    font-size: 50px;
+}
+
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BtnPopUp{
+    cursor: pointer;
+}
+
+.modalWidth {
+    max-width: 855px!important;
+}
+
+.circleButton {
+    width: 35px;
+    height: 35px;
+    padding: 2px 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(199, 36, 3);
+    color: white;
+}
+
+.benchNav:hover{
+    background-color: rgba(0, 183, 255, 0.1); 
+}
+
+.benchNavIcon{
+    position: relative;
+    top: 2px;
+}
+
+.btn-linkCust {
+    font-weight: 400;
+    color: rgb(2, 99, 193); 
+    text-decoration: none;
+    padding: 0;
+}
+
+.btn-linkCust:hover {
+    color: teal;
+}
+
+.descriptionCell{
+    width: 160px;
+}
+
+td.specialHeader {
+    border-bottom: 0px;
+    position: relative;
+    background-color: rgba(2, 99, 193, 0.1);
+}
+
+td.specialHeader2 {
+    border-bottom: 0px;
+    position: relative;
+    background-color: rgba(199, 36, 3, 0.1);
+}
+
+.selectPositon{
+    margin-top: 9px;
+}
+
+.folderLook {
+    border-bottom: 50px solid  rgba(0, 183, 255, 0.1); ;
+    border-left: 0 solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    cursor: pointer;
+}
+
+.btnChartDisplayed{
+    border-bottom: 50px solid  rgba(0, 183, 255, 0.7);
+    color: rgb(255, 255, 255);
+}
+ .mt-2-5{
+    margin-top: .7rem!important;
+ }
+
+ .noDisplayed{
+    display: none;
+ }

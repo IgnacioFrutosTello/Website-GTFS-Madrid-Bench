@@ -1,0 +1,22 @@
+.nav-item  a:hover  { 
+    border-bottom: 3px solid rgb(24, 144, 255);
+    margin: -2px;
+}
+
+.drpMnu:hover{
+    border-bottom: 0  !important; 
+    margin-top: 0.2px !important;
+}
+
+.drpItm:hover{
+    border-bottom: 0  !important; 
+    color:rgb(24, 144, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(24, 144, 255);
+}
+
+.mycol{
+    background-color:aqua;
+}
